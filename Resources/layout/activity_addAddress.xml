@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>  
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffa49ca8">
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout1"
+        android:background="#ff140202">
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2"
+            android:layout_margin="7dp"
+            android:background="#ffd9cccc">
+            <TextView
+                android:text="Add Address Screen"
+                android:layout_width="match_parent"
+                android:layout_height="74.5dp"
+                android:id="@+id/textView1"
+                android:gravity="center"
+                android:background="#ff0c0b0b"
+                android:textSize="30dp"
+                android:textColor="#fff8f8f8"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout3"
+            android:layout_margin="7dp"
+            android:background="#ff5d4a4a">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/username"
+                android:hint="UserName"
+                android:layout_margin="10dp"
+                android:background="#fff5e5e5"
+                android:padding="10dp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/city"
+                android:hint="City"
+                android:layout_margin="10dp"
+                android:background="#fff7efef"
+                android:padding="10dp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/homeNu"
+                android:hint="HomeNu"
+                android:layout_margin="10dp"
+                android:background="#fff5e5e5"
+                android:padding="10dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout4"
+            android:layout_margin="7dp"
+            android:gravity="center"
+            android:background="#ff3b3e3d">
+            <Button
+                android:text="Add a new Address"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/add"
+                android:background="#ffc6abab" />
+            <Button
+                android:text="Cancel"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/cancel"
+                android:background="#ffc6abab"
+                android:layout_margin="15dp" />           
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
